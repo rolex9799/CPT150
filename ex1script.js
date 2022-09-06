@@ -9,6 +9,8 @@
 // b = (a-3)*(a+9);
 
 // console.log(b);
+
+
 let Berlin;
 Berlin = prompt("Is Berlin in Italy? - Y/N");
 if (Berlin == "N"){
