@@ -6,13 +6,16 @@
 
 // }
 
+let a;
+let b;
+let c;
 function divide(){
 
-    let a = document.formSubmit.numberA.value;
-    let b = document.formSubmit.numberB.value;
-    let c = a/b;   
-    document.formSubmit.result.value = c;
-    alert(c);
+    a = document.formSubmit.numberA.value;
+    b = document.formSubmit.numberB.value;
+    c = a/b;
+    document.formSubmit.result.value = c;  
+     
 
     let primeNumber = true;
 
