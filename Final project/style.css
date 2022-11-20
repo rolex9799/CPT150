@@ -43,7 +43,7 @@
     margin-top: 2rem;
 }
 
-.rock, .paper, .scissor{
+.choiceBtn{
     padding: 0.8rem;
     width: 120px;
     border: 12px;
