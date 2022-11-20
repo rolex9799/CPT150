@@ -26,7 +26,7 @@
     width: 30vw;
     justify-content: space-evenly;
     position: absolute;
-    top: 70px;
+    top: 100px;
     z-index: 1;
 }
 
@@ -45,7 +45,7 @@
 
 .choiceBtn{
     padding: 0.8rem;
-    width: 120px;
+    width: 150px;
     border: 12px;
     background: green;
     outline: none;
@@ -73,4 +73,14 @@
     border: none;
     border: 12px;
     cursor: pointer;
+}
+
+img{
+    border-radius: 4px;
+    background: green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
 }

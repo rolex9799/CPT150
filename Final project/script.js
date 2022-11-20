@@ -24,28 +24,28 @@ function computerTurn(){
 
     switch(randNum){
         case 1:
-        computer = "Rock";
+        computer = "Ironman";
         break;
         case 2:
-        computer = "Paper";
+        computer = "Batman";
         break;
         case 3:
-        computer = "Scissors";
+        computer = "Superman";
         break;
     }
-}
+    }
 
 function checkWinner(){
-    if (player == computer){
-        return "Draw!";
+    if (computer == player){
+        return "Draw!"
     }
-    else if (computer == "Rock"){
-        return (player == "Paper")? "You Win!" : "You Lose!"
+    else if (computer == "Ironman"){
+        return (player == "Superman")? "You Win!" : "You Lose!"
     }
-    else if (computer == "Paper"){
-        return (player == "Scissor")? "You Win!" : "You Lose!"
+    else if (computer == "Superman"){
+        return (player == "Batman")? "You Win!" : "You Lose!"
     }
-    else if (computer == "Scissors"){
-        return (player == "Rock")? "You Win!" : "You Lose!"
+    else if (computer == "Batman"){
+        return (player == "Ironman")? "You Win!" : "You Lose!"
     }
 }
